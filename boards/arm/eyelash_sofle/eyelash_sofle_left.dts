@@ -9,13 +9,14 @@
 
 &kscan0 {
      col-gpios =
-        <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 0 GPIO 009 */
-        <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,   /* Col 1 GPIO 010 */
-        <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 2 GPIO 111 */
-        <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 3 GPIO 113 */
-        <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 4 GPIO 115 */
-        <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,    /* Col 5 GPIO 002 */
-        <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;   /* Col 6 GPIO 029 */
+        <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 0 GPIO 020 */
+        <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 1 GPIO 022 */  
+        <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 2 GPIO 024 */  
+        <&gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 3 GPIO 100 */  
+        <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 4 GPIO 011 */  
+        <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Col 5 GPIO 104 */  
+        <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  /* Col 6 GPIO 106 */
+
 };
 
 &left_encoder {
